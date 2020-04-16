@@ -1,0 +1,97 @@
+.container{
+  display: flex;
+   align-item:center;
+  width:1000px;
+  margin-top: 0px;
+  padding: 10px;
+   line-height: 2;
+}
+img {
+  width: 1000px;
+  position: relative;}
+.name {
+  position: absolute;
+  line-height: 50%;
+  margin-top: -130px;
+  margin-left: 210px;
+}
+.name2 {
+  position: absolute;
+  margin-top: -90px;
+  margin-left: 210px
+}
+.kisebb {
+  font: 35px 'Abril Fatface';
+   text-align: left;
+  color: black;}
+.nagyobb {
+  font: 55px 'Abril Fatface';
+  color: black;
+  text-align: left;}
+p {
+  font-family: 'Josefin Sans';
+
+  text-align: justify;}
+
+ul {
+  line-height: 2 px;
+  list-style-type: square;
+font-family: 'Josefin sans'}
+
+.body {
+  width: 650px;
+  display: block;
+  position: relative;
+  margin: auto;
+  margin: auto;
+  }
+blockquote { 
+   position: relative;
+  background-color: #222;
+	color: white;
+	margin-right:auto;
+	display: flex;
+  font-family: 'Merriweather' ;
+    font-size:15px;
+  font-weight: bold;
+  margin-left:-20px; */
+/*   text-align:center; 
+  justify-content:space-between;
+  padding-left:5px; */
+  margin=0;
+}
+  p {
+    font-type:'josefin sans'
+  }
+  h1{ 
+      font-family: 'Montserrat'  }
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;}
+h3 {
+  font-family: 'Montserrat', serif;
+  text-align: justify;
+  font-style: bold;
+  font-size: 20px;
+ 
+}
+h4 {
+  font-family: 'Montserrat', serif;
+  text-align: justify;
+  font-style: italic;
+  font-size: 13px;
+  line-height: 1px;
+}
+
+blockquote::before {
+  content: '“';
+	font-size: 60px;
+	margin-top: -20px;
+  letter-spacing: 1px;
+}
+
+  hr {
+  margin-top: 40px;
+  border: 2px solid black;
+}
